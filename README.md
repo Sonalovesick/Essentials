@@ -4,5 +4,5 @@ essentials  This repository is for students of the following classes: DAGV 1100 
 
 
 
-Note
+Note: in progress, currently unfinished
 
