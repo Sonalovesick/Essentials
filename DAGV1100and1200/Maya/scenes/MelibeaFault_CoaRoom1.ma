@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: MelibeaFault_CoaRoom1.ma
-//Last modified: Fri, Sep 05, 2025 07:28:27 PM
+//Last modified: Fri, Sep 05, 2025 07:42:52 PM
 //Codeset: 1252
 requires maya "2026";
 requires -nodeType "materialxStack" -nodeType "MaterialXSurfaceShader" -dataType "MxDocumentStackData"
@@ -15,13 +15,13 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26100)";
-fileInfo "UUID" "ADB1D021-44DB-1A2C-8F82-259F0592235A";
+fileInfo "UUID" "4CFC5F8D-411A-4602-0739-7F8CA3160442";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "FAA7D7E6-47C4-DFDC-F576-A386B2CCC229";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 28.637735633798158 12.769188756777082 35.642316492667604 ;
-	setAttr ".r" -type "double3" 344.39999999185142 -1761.1999999999964 0 ;
+	setAttr ".t" -type "double3" 20.475958632352622 13.724170882269705 40.573958469125643 ;
+	setAttr ".r" -type "double3" 343.19999999185035 -1773.199999999991 8.9082601798987754e-16 ;
 	setAttr ".rp" -type "double3" 1.7763568394002505e-15 4.4408920985006262e-16 -5.5511151231257827e-17 ;
 	setAttr ".rpt" -type "double3" -9.6085124551423625e-15 -9.2186959560254301e-18 -1.0933490168258388e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
